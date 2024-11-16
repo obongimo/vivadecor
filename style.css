@@ -191,11 +191,15 @@ header {
     margin-bottom: 150px;
 }
 
+.design-options-img {
+    margin-right: 100px;
+}
+
 .design-options-text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 .design-options-text h1 {
@@ -240,7 +244,11 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-right: 100px;
+    /* padding-right: 100px; */
+}
+
+.design-steps-img {
+    margin-left: 100px;
 }
 
 .design-steps h1 {
