@@ -193,6 +193,7 @@ header {
 
 .design-options-img {
     margin-right: 100px;
+    width: 60%;
 }
 
 .design-options-text {
@@ -249,6 +250,7 @@ header {
 
 .design-steps-img {
     margin-left: 100px;
+    width: 60%;
 }
 
 .design-steps h1 {
@@ -303,7 +305,6 @@ header {
 
 .reviews-wrapper h1 {
     /* float: right; */
-    margin-left: 100px;
     font-size: 40px;
 }
 
@@ -311,6 +312,8 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-right: 100px;
+    width: 60%;
 }
 
 .arrow-buttons {
