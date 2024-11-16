@@ -22,8 +22,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 35px;
-    margin-bottom: 90px;
+    margin-top: 40px;
+    margin-bottom: 100px;
 }
 
 .nav-links {
@@ -57,18 +57,17 @@ header {
 }
 
 .first-wrapper h1 {
-    font-size: 90px;
+    font-size: 105px;
     font-weight: 500;
     margin-bottom: 30px;
 }
 
 .first-wrapper p {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
-    width: 70%;
-    /* border: 1px solid red; */
+    width: 80%;
     color: rgba(84, 84, 84, 1);
-    line-height: 32px;
+    line-height: 1.5;
 }
 
 .second-wrapper {
@@ -76,8 +75,8 @@ header {
 }
 
 .second-wrapper button{
-    font-size: 22px;
-    padding: 15px 30px;
+    font-size: 20px;
+    padding: 25px 55px;
     background-color: rgba(31, 31, 31, 1);
     color: #FFFFFF;
 }
@@ -93,12 +92,13 @@ header {
 }
 
 .text-div button {
-    width: 220px;
-    font-size: 18px;
+    width: 250px;
+    font-size: 20px;
     font-weight: 600;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .achievements {
@@ -120,9 +120,7 @@ header {
 .object-div {
     position: relative;
     width: 600px;
-    height: 330px;
-    /* display: flex;
-    flex-direction: column; */
+    height: 348px;
 }
 
 .empty-div {
@@ -137,7 +135,7 @@ header {
 .second-img {
     position: absolute;
     left: 30px;
-    bottom: 0px;
+    top: 30px;
 }
 
 .button-img {
@@ -153,7 +151,7 @@ header {
 }
 
 .title h1 {
-    font-size: 40px;
+    font-size: 45px;
     padding-left: 20px;
 }
 
@@ -183,7 +181,6 @@ header {
     line-height: 1.5;
     color: rgba(84, 84, 84, 1);
     padding-right: 15px;
-
 }
 
 .design-options {
@@ -192,36 +189,31 @@ header {
     justify-content: space-between;
 }
 
-.design-options-img {
-    /* margin-right: 100px; */
-    width: 45%;
-}
-
 .design-options-text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* margin-left: 100px; */
     width: 45%;
 }
 
 .design-options-text h1 {
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .design-options-text > p {
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 18px;
+    line-height: 2;
     color: rgba(84, 84, 84, 1);
 }
 
 .design-options-text button {
-    width: 200px;
-    padding: 15px 30px;
+    width: 210px;
+    padding: 25px 30px;
     color: #FFFFFF;
     background-color: #000000;
     border: none;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 600;
     border-radius: 4px;
     margin-bottom: 3px;
 }
@@ -249,19 +241,11 @@ header {
     flex-direction: column;
     justify-content: space-around;
     width: 45%;
-    /* margin-right: 100px; */
-}
-
-.design-steps-img {
-    width: 45%;
-    /* margin-left: 100px; */
-    /* width: 60%; */
 }
 
 .design-steps h1 {
-    font-size: 40px;
+    font-size: 45px;
     margin-bottom: 40px;
-    /* padding-right: 100px; */
 }
 
 .design-steps-items {
@@ -283,13 +267,11 @@ header {
 .steps-text h2 {
     margin-top: 30px;
     margin-bottom: 10px;
-
 }
 
 .steps-text p {
     color: rgba(84, 84, 84, 1);
     line-height: 2;
-
 }
 
 .steps-icons img {
@@ -310,8 +292,7 @@ header {
 }
 
 .reviews-wrapper h1 {
-    /* float: right; */
-    font-size: 40px;
+    font-size: 45px;
     width: 45%;
 }
 
@@ -319,23 +300,21 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* margin-right: 10px; */
     width: 45%;
 }
 
 .arrow-buttons {
-    margin-top: 50px;
+    margin-top: 48px;
 }
 
 .arrow-buttons a {
     margin-right: 30px;
-    margin-top: 50px;
 }
 
 .float-div {
     position: absolute;
     height: 440px;
-    width: 450px;
+    width: 490px;
     background-color: rgba(31, 31, 31, 1);
     color: #FFFFFF;
     padding: 15px 40px 30px 40px;
@@ -343,7 +322,7 @@ header {
 
 .float-div-one {
     bottom: 0;
-    left: 185px;
+    left: 200px;
 }
 
 .float-div-two {
@@ -352,11 +331,11 @@ header {
 }
 
 q {
-    font-size: 60px;
+    font-size: 70px;
 }
 
 blockquote {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 2;
 }
 
@@ -382,23 +361,23 @@ blockquote {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 80vh;
+    height: 490px;
 }
 
 .newsletter-sub h1 {
-    font-size: 40px;
+    font-size: 45px;
     width: 55%;
     text-align: center;
     color: rgba(31, 31, 31, 1);
-
 }
 
 .newsletter-sub p {
-    font-size: 18px;
-    width: 53%;
+    font-size: 20px;
+    line-height: 2;
+    width: 52%;
     text-align: center;
     color: rgba(84, 84, 84, 1);
-
+    margin-bottom: 50px;
 }
 
 .newsletter-form {
@@ -448,7 +427,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* padding-top: 100px; */
 }
 
 footer p {
