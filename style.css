@@ -189,11 +189,12 @@ header {
 .design-options {
     display: flex;
     margin-bottom: 150px;
+    justify-content: space-between;
 }
 
 .design-options-img {
-    margin-right: 100px;
-    width: 60%;
+    /* margin-right: 100px; */
+    width: 45%;
 }
 
 .design-options-text {
@@ -201,6 +202,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     /* margin-left: 100px; */
+    width: 45%;
 }
 
 .design-options-text h1 {
@@ -239,18 +241,21 @@ header {
 .design-steps-wrapper {
     display: flex;
     margin-bottom: 150px;
+    justify-content: space-between;
 }
 
 .design-steps {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* padding-right: 100px; */
+    width: 45%;
+    /* margin-right: 100px; */
 }
 
 .design-steps-img {
-    margin-left: 100px;
-    width: 60%;
+    width: 45%;
+    /* margin-left: 100px; */
+    /* width: 60%; */
 }
 
 .design-steps h1 {
@@ -301,19 +306,21 @@ header {
     position: relative;
     margin-bottom: 50px;
     height: 100vh;
+    justify-content: space-between;
 }
 
 .reviews-wrapper h1 {
     /* float: right; */
     font-size: 40px;
+    width: 45%;
 }
 
 .review-images {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-right: 100px;
-    width: 60%;
+    /* margin-right: 10px; */
+    width: 45%;
 }
 
 .arrow-buttons {
@@ -327,8 +334,8 @@ header {
 
 .float-div {
     position: absolute;
-    height: 440px;
-    width: 450px;
+    height: 430px;
+    width: 440px;
     background-color: rgba(31, 31, 31, 1);
     color: #FFFFFF;
     padding: 15px 40px 30px 40px;
@@ -336,7 +343,7 @@ header {
 
 .float-div-one {
     bottom: 0;
-    left: 175px;
+    left: 185px;
 }
 
 .float-div-two {
@@ -345,11 +352,11 @@ header {
 }
 
 q {
-    font-size: 80px;
+    font-size: 60px;
 }
 
 blockquote {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 2;
 }
 
