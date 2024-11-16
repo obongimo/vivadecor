@@ -305,7 +305,7 @@ header {
     display: flex;
     position: relative;
     margin-bottom: 50px;
-    height: 100vh;
+    height: 600px;
     justify-content: space-between;
 }
 
@@ -324,17 +324,17 @@ header {
 }
 
 .arrow-buttons {
-    margin-top: 36px;
+    margin-top: 50px;
 }
 
 .arrow-buttons a {
     margin-right: 30px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .float-div {
     position: absolute;
-    height: 430px;
+    height: 440px;
     width: 440px;
     background-color: rgba(31, 31, 31, 1);
     color: #FFFFFF;
