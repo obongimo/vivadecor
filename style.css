@@ -48,6 +48,10 @@ nav button {
     cursor: pointer;
 }
 
+#hamburger-menu {
+    display: none;
+}
+
 header {
     margin-bottom: 100px;
 }
@@ -68,6 +72,11 @@ header {
     width: 80%;
     color: rgba(84, 84, 84, 1);
     line-height: 1.5;
+}
+
+.first-wrapper img {
+    width: 400px;
+    height: auto;
 }
 
 .second-wrapper {
@@ -136,6 +145,8 @@ header {
     position: absolute;
     left: 30px;
     top: 30px;
+    width: 500px;
+    height: auto;
 }
 
 .button-img {
@@ -187,6 +198,11 @@ header {
     display: flex;
     margin-bottom: 150px;
     justify-content: space-between;
+}
+
+.design-options-img img {
+    width: 550px;
+    height: auto;
 }
 
 .design-options-text {
@@ -283,6 +299,11 @@ header {
     border: 1px solid rgba(155, 155, 155, 1)
 }
 
+.design-steps-img img {
+    width: 550px;
+    height: auto;
+}
+
 .reviews-wrapper {
     display: flex;
     position: relative;
@@ -301,6 +322,11 @@ header {
     flex-direction: column;
     justify-content: space-between;
     width: 45%;
+}
+
+.review-images > img {
+    width: 550px;
+    height: 500px;
 }
 
 .arrow-buttons {
@@ -470,3 +496,216 @@ footer p {
     height: 70%;
 }
 
+@media only screen and (max-width: 600px) {
+
+    nav {
+        margin-bottom: 40px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    #hamburger-menu {
+        display: flex;
+    }
+
+    .first-wrapper {
+        flex-direction: column;
+    }
+
+    .first-wrapper h1 {
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .first-wrapper p {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .first-wrapper img {
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .second-wrapper {
+        flex-direction: column;
+    }
+
+    .achievements {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .object-div {
+        width: 100%;
+        height: 348px;
+    } 
+
+    .second-img {
+        width: 90%;
+        height: 91.5%;
+        left: 30px;
+        top: 30px;
+    }
+
+    .services-wrapper {
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .services-item {
+        margin-bottom: 10px;
+    }
+
+    .services-item-text h2 {
+        padding-bottom: 10px;
+    }
+
+    .design-options {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .design-options-img {
+        margin-bottom: 20px;
+    } 
+
+    .design-options-img img {
+        width: 100%;
+    }
+
+    .design-options-text {
+        width: 100%;
+    }
+
+    .design-options-text > h1 {
+        margin-bottom: 20px;
+    }
+
+    .design-options-text > p {
+        margin-bottom: 20px;
+    }
+
+    .design-options-item {
+        margin-bottom: 20px;
+    }
+
+    .design-steps-wrapper {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .design-steps {
+        width: 100%;
+    }
+
+    .design-steps-img {
+        margin-top: 50px;
+    }
+
+    .design-steps-img img {
+        width: 100%;
+    }
+
+    .reviews-wrapper {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .review-images > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .review-images {
+        width: 100%;
+    }
+
+    #imagesDiv {
+        order: 2;
+    }
+
+    #reviewTitle {
+        order: 1;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #floatDivOne {
+        order: 3;
+    }
+
+    #floatDivTwo {
+        order: 4;
+    }
+
+    .float-div-one {
+        display: none;
+        left: 400px;
+    }
+    
+    .float-div-two {
+        bottom: 0;
+        right: 0;
+    }
+
+    .float-div {
+        height: 64.2%;
+        width: 68%;
+        padding: 15px 40px 30px 40px;
+    }
+
+    .newsletter-sub {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .newsletter-sub h1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .newsletter-sub p {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .newsletter-form {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        height: 80vh;
+        flex-direction: column;
+    }
+
+    .footer-summary {
+        height: auto;
+        width: 90%;
+        align-items: center;
+    }
+
+    .footer-summary img {
+        margin-bottom: 20px;
+    }
+
+    .footer-summary p {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .social-links {
+        justify-content: space-around;
+        width: 90%;
+    }
+}
